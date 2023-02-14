@@ -1,0 +1,178 @@
+
+.navbar {
+    width: 22%;
+    border-right: 2px solid rgba(138, 135, 135, 0.466);
+    position: fixed;
+    height: max-content;
+}
+
+.navbar div {
+    margin-bottom: 7%;
+    transition: all 0.2s;
+}
+
+.navbar div span {
+    border-radius: 2em;
+}
+
+.navbar div span {
+    font-family: 'Bitter', serif;
+    font-size: 1.3em;
+    padding: 10px;
+    margin-top: -20%;
+}
+
+.navbar div a i {
+    font-size: 2.2em;
+    margin-left: 40%;
+    color: rgb(0, 0, 0);
+}
+
+.navbar div a i:hover {
+    color: blue;
+}
+
+
+#twt_pen a i {
+    display: none;
+}
+
+.userProfile_Link {
+    margin-left: -25%;
+}
+
+.feed_container {
+    width: 45%;
+    margin-left: 23%;
+    margin-top: -4px;
+   
+}
+
+.post_feed {
+    border-bottom: 2px solid rgba(77, 75, 75, 0.473);
+    margin: 2.5em 10px;
+    height: max-content;
+}
+
+.post_icons .material-icons-outlined {
+    margin-left: 15px;
+    margin-top: 40px;
+    color: rgb(87, 87, 255);
+    cursor: pointer;
+}
+
+.post_feed #star {
+    position: absolute;
+    margin-left: 85%;
+    font-size: 2em;
+    margin-top: -0.5em;
+}
+
+.profileImg {
+    height: 3.5em;
+    width: 3.5em;
+    
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.profile_info {
+    position: absolute;
+    font-family: 'Bitter', serif;
+    font-size: 1.2em;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.feedInfo {
+    width: 90%;
+    padding-left: 2cm;
+    margin-top: -1em;
+}
+
+.SearchBar input[type=text] {
+    font-family: Arial, FontAwesome;
+    z-index: 2;
+    width: 90%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgba(151, 151, 151, 0.377);
+}
+
+.WH_Feed {
+    height: max-content;
+    width: 90%;
+    margin-top: 2em;
+}
+
+.WH_Feed .category {
+    font-size: 0.7em;
+    margin-left: 15px;
+    color: gray;
+    margin-bottom: -1em;
+}
+
+.WH_Feed .topic {
+    font-size: 0.9em;
+    width: 70%;
+    margin-left: 10px;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+.WH_Feed img {
+    height: 50px;
+    display: inline-block;
+    border-radius: 10px;
+    width: 70px;
+    margin-left: 5px;
+}
+
+.WH_Feed .ExtraInfo {
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: -8px;
+}
+
+.WhatsHappening span:hover {
+    cursor: pointer;
+}
+
+.profiles img {
+    height: 50px;
+    display: inline-block;
+    border-radius: 10px;
+    width: 50px;
+    margin-left: 10px;
+}
+
+.profiles {
+    margin-top: 1.8em;
+    cursor: pointer;
+}
+
+.profiles .name {
+    position: absolute;
+    font-size: 0.9em;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
+.profiles .username {
+    margin-left: 10px;
+    font-size: 0.8em;
+    position: absolute;
+    margin-top: 25px;
+}
+
+.profiles span a {
+    margin-left: 16em;
+    padding: 15px 2em;
+    font-size: 0.9em;
+    background-color: rgb(243, 33, 33);
+    color: white;
+}
+
+.profiles span a:hover {
+    background-color: blue;
+}
