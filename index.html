@@ -1,291 +1,520 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Bitter&family=Domine:wght@500&family=Gideon+Roman&family=Raleway:ital,wght@1,200&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="index.css">
-    <title>WELCOME TO TWITTER</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Twitter</title>
 </head>
-
 <body>
-    <!-- -------------------------------------------------------------------------------------------------------------------------------------- -->
-    <!-- -------------------------------------------------------------------------------------------------------------------------------------- -->
-    <!-- NAVIGATION MENU -->
+    <div class="leftbar">
+        <div class="brand"><i class='bx bxl-twitter brandicon' ></i></div>
+        <div style="display: flex;flex-direction: column;justify-content: space-between; min-height: 85%;">
+            <div class="leftlist">
+                <div class="litem"><i class='bx bx-home-alt lbicon'></i><a href="" class="lbtitle">Home</a></div>
+                <div class="litem"><i class='bx bx-hash lbicon'></i><a href="#" class="lbtitle">Explore</a></div>
+                <div class="litem"><i class='bx bx-bell lbicon'></i><a href="#" class="lbtitle">Notifications</a></div>
+                <div class="litem"><i class='bx bx-envelope lbicon'></i><a href="#" class="lbtitle">Messages</a></div>
+                <div class="litem"><i class='bx bx-bookmark lbicon'></i><a href="#" class="lbtitle">Bookmarks</a></div>
+                <div class="litem"><i class='bx bx-list-ul lbicon'></i><a href="#" class="lbtitle">Lists</a></div>
+                <div class="litem"><i class='bx bx-user lbicon'></i><a href="#" class="lbtitle">Profile</a></div>
+                <div class="litem"><i class='bx bx-dots-horizontal-rounded lbicon'></i><a href="#" class="lbtitle">More</a></div>
+                <div class="lbtn"><button style="width: 120px;"class="tweetbtn">Tweet</button></div>
+                
 
-
-    <div class="navbar">
-        <div><a href=""><i class="fa fa-twitter"  ></i></a></div>
-        <div>
-            <a href=""><i class="material-icons">home</i></a><span><strong>Home</strong></span>
-        </div>
-        <div>
-            <a href=""><i class="material-icons">tag</i></a><span>Explore</span>
-        </div>
-        <div>
-            <a href=""> <i class="material-icons-outlined">notifications</i></a><span>Notifications</span>
-        </div>
-        <div>
-            <a href=""><i class="material-icons-outlined">mail</i></a><span>Messages</span>
-        </div>
-        <div>
-            <a href=""><i class="material-icons-outlined">bookmark_border</i></a><span>Bookmarks</span>
-        </div>
-        <div>
-            <a href=""><i class="material-icons-outlined">ballot</i></a><span>Lists</span>
-        </div>
-        <div>
-            <a href=""><i class="material-icons-outlined">person</i></a><span>Profile</span>
-        </div>
-        <div>
-            <a href=""><i class="material-icons-outlined">more</i></a><span>More</span>
-        </div>
-        <!-- TWEET BUTTON -->
-        <div class="twt_button_nav">
-            <a href="">Tweet</a>
-        </div>
-        <div id="twt_pen">
-            <a href=""><i class="material-icons">auto_fix_high</i></a>
-        </div>
-
-
-        <!-- USER_PROFILE_LINK -->
-        <div class="userProfile_Link">
-            <a href="">
-                <i class="material-icons">account_circle </i>
-                <span style="position: absolute;margin-top: -3%;font-size: 1.1em;">DEXTRIX DEVELOPER</span>
-                <span style="position: absolute;margin-top: 2%;font-size: 1.1em;">@dextrixJ08220241</span>
-                <!-- <span class="material-icons" style="position: absolute;margin-left: 5.3cm;margin-top: 15px;">more_horiz</span> -->
-            </a>
+            </div>
+            <div class="lacc"><i class='bx bxs-user-circle useric'></i><span style="font-size: 18px;" >Praise Son<br><span style="font-size: 18px;color: #1DA1F2;">@Praiseson_6065 </span></span></div>
         </div>
 
     </div>
-
-
-
-
-    <!-- --------------------------------------------------------------------------------------------------------------------------------------     -->
-    <!-- --------------------------------------------------------------------------------------------------------------------------------------     -->
-
-
-
-    <!-- FEEDS -STATIC- -->
-    <div class="feed_container">
-        <!-- POST FEEED SECTION -->
-        <div class="post_feed">
-            <span class="material-icons" style="font-size: 3em;">account_circle</span>
-            <span style="font-size: 1.3em;position: absolute; margin-top: 20px; margin-left: 20px;color: gray;">What's Happening ? </span>
-            <span id="star" class="material-icons-outlined">auto_awesome</span>
-            <p class="post_icons">
-                <span class="material-icons-outlined">image</span>
-                <span class="material-icons-outlined">gif_box</span>
-                <span class="material-icons-outlined">align_horizontal_left</span>
-                <span class="material-icons-outlined">sentiment_satisfied</span>
-                <span class="material-icons-outlined">pending_actions</span>
-
-                <span class="material-icons-outlined" style="color: rgb(160, 160, 255);cursor: not-allowed;">room</span>
-            </p>
-            <div class="twt_button"><a href="">Tweet</a></div>
-        </div>
-        <!-- WELCOME BACK MESSAGE -->
-        <div id="welcome_msg" style="margin-left: 30px;">
-            <p>
-                <h1>Welcome Back</h1>
-            </p>
-            <p>Select some topics that you are interested in to personalize your twitter experience, starting with finding people to follow</p>
-            <div class="gt_started_btn"><a href="javascript:void(0)" onclick="get_started()">Get
-                    Started</a></div>
-        </div>
-        <!-- POSTS / FEEDS-->
-        <div class="feed">
-            <img src="moh.jfif" class="profileImg"> <span class="profile_info">Ministry of Health<span  class="material-icons" >verified</span>
-            <span style=" font-size: 0.9em;color: gray;">@MoHFW_IND . 15m</span></span>
-            <p class="feedInfo">
-                <span >#Unite2FightCorona</span><br>
-                <span >#IndaFightsCorona</span><br>
-                <span >#OmicronVarient</span>
-            </p>
-            <img src="corona.jfif" class="feedMedia">
-            <div class="post_actions">
-                <span class="material-icons-outlined">mode_comment</span> <span>152</span>
-                <span class="material-icons" style="transform: rotate(90deg);">repeat</span><span>29</span>
-                <span class="material-icons">favorite_border</span> <span>78</span>
-                <span class="material-icons">ios_share</span>
+    <div class="feed-container">
+        <div style="border-bottom: 1px solid  #859fae38;">
+            <div class="twitter-head">
+                <div style="display: flex;justify-content: space-between;align-items: center;">
+                    <h2 >Home</h2>
+                    <span style="margin-right: 1rem; font-size: 28px;" class="material-symbols-outlined">auto_awesome</span>
+                </div>
+                
+                <div class="twhead">
+                    <div style="margin-top: 1rem;"  >
+                        <i class='bx bxs-user-circle usertw'></i>
+                    </div>
+                    <div class="th2">
+                        <div><p class="light-text">What's Happening!</p></div>
+                        <div class="twhsec">
+                            <div class="twicons" >
+                                <span style="" class="material-symbols-outlined  md-48">image</span>
+                                <span style="" class="material-symbols-outlined">gif_box</span>
+                                <span style="" class="material-symbols-outlined">align_horizontal_left</span>
+                                <span style="" class="material-symbols-outlined">sentiment_satisfied</span>
+                                <span style="" class="material-symbols-outlined">pending_actions</span>
+                                <span style="font-size:24px;color: rgb(142, 175, 199);" class="material-symbols-outlined">room</span>
+            
+                            </div>
+                            <div class="twheadbtn">
+                                <button style="width: 80px; font-size: 16px; font-weight: 600;"class="tweetbtn">Tweet</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                
             </div>
         </div>
-        <div class="feed">
-            <img src="arvind.jfif" class="profileImg"> <span class="profile_info">Arvind Kejriwal<span  class="material-icons" >verified</span>
-            <span style=" font-size: 0.9em;color: gray;">@ArvindKejriwal . 3h</span></span>
-            <p class="feedInfo">पिछले 7 सालों में हमने दिल्ली में 20,000 क्लासरूम बनाए। बाक़ी सारी राज्य सरकारों और केंद्र सरकार मिलाकर भी बाक़ी देश में सात साल में 20,000 क्लासरूम नहीं बने।</p>
-            <img src="class.jfif" class="feedMedia">
-            <div class="post_actions">
-                <span class="material-icons-outlined">mode_comment</span> <span>13.5k</span>
-                <span class="material-icons" style="transform: rotate(90deg);">repeat</span><span>2.1M</span>
-                <span class="material-icons">favorite_border</span> <span>12k</span>
-                <span class="material-icons">ios_share</span>
+        <div style="border-bottom: 1px  rgba(88, 111, 127, 0.00000001);">
+            <div class="getstarted">    
+                <h2>Welcome Back</h2>
+                <p>Select some topics that you are interested in to personalize your twitter experience, starting with finding people to follow</p>
+                <button class="gstrtbtn">Get Started</button>
             </div>
         </div>
-        <div class="feed">
-            <img src="anand.jfif" class="profileImg"> <span class="profile_info">anand mahindra<span
-                    class="material-icons" >verified</span><span style=" font-size: 0.9em;color: gray;">@anandmahindra .
-                    4h</span></span>
-            <p class="feedInfo">Not just the greatest Maratha, but a great Indian… <span >#shivajimaharajjayanti</span></p>
-            <img src="maratha.jfif" class="feedMedia">
-            <div class="post_actions">
-                <span class="material-icons-outlined">mode_comment</span> <span>2k</span>
-                <span class="material-icons" style="transform: rotate(90deg);">repeat</span><span>10.2k</span>
-                <span class="material-icons">favorite_border</span> <span>3.6k</span>
-                <span class="material-icons">ios_share</span>
-            </div>
-        </div>
-        <div class="feed">
-            <img src="pib.jfif" class="profileImg"> <span class="profile_info">PIB India<span class="material-icons"
-                    >verified</span><span style=" font-size: 0.9em;color: gray;">@PIB_India .
-                    6h</span></span>
-            <p class="feedInfo"><span >@mnreindia</span> and <span >@ficci_india</span> organise Chaitan Baithak on "Roadmap to achieve net-zero carbon emission till 2070 <br><br> The Chaitan Baithak was apart of MNRE's ongoing celebration
-                of <span >#AzadiKaAmritMahautsav</span></p>
-            <div class="post_actions">
-                <span class="material-icons-outlined">mode_comment</span> <span>25.3k</span>
-                <span class="material-icons" style="transform: rotate(90deg);">repeat</span><span>1.9M</span>
-                <span class="material-icons">favorite_border</span> <span>20k</span>
-                <span class="material-icons">ios_share</span>
-            </div>
-        </div>
-        <div class="feed">
-            <img src="tesh.png" class="profileImg"> <span class="profile_info">Tesmanian.com<span class="material-icons"
-                    >verified</span><span style=" font-size: 0.9em;color: gray;">@Tesmanian.com .
-                    4h</span></span>
-            <p class="feedInfo">Polaris Program Crew Will Conduct First-Ever Commercial Spacewalk Wearing New SpaceX Spacesuits <br><span >@SpaceX</span> &nbsp;&nbsp;&nbsp;<span >@ElonMusk</span>
-            </p>
-            <img src="space.jfif" class="feedMedia">
-            <div class="post_actions">
-                <span class="material-icons-outlined">mode_comment</span> <span>1M</span>
-                <span class="material-icons" style="transform: rotate(90deg);">repeat</span><span>5.6M</span>
-                <span class="material-icons">favorite_border</span> <span>98.7k</span>
-                <span class="material-icons">ios_share</span>
-            </div>
-        </div>
-        <div class="feed">
-            <img src="rl.jfif" class="profileImg"> <span class="profile_info">Robert Lewandowski<span
-                    class="material-icons" >verified</span><span style=" font-size: 0.9em;color: gray;">@lewy_official .
-                    5h</span></span>
-            <p class="feedInfo">Trust me they are heavier than you think.. 😜😎 <br>
-                <span >#RL9</span><span >#IFFHS</span><br>
-                <span >#International</span><span >#TopDivision</span><br>
-                <span >#WorldBestPlayer</span></p>
-            <img src="rl9.jfif" class="feedMedia">
+        
+        <div>
+                <div class="tweetmain border-top ">
+                    
+                        <div><img class="accpic" src="img/moh.jfif" alt="moh"></div>
+                        <div class="postcontent">
+                            <div class="posthead dflex">
+                                <h4 class="accname">Ministry Of Health</h4>
+                                <i class='bx bxs-badge-check accver'></i>
+                                <h5 class="accusername ">@MoHFW_IND</h5>
+                                <span style="font-size: 4px; color: #9a9a9a;margin: 0 .2rem 0 .2rem;" class="material-icons">fiber_manual_record</span>
+                                <h5 class="posttime">15m</h5>
+                            </div>
+                            <div class="post-content-data">
+                                <h4 class="hastag">#Unite2FightCorona</h4>
+                                <h4 class="hastag">#Unite2FightCorona</h4>
+                                <h4 class="hastag">#Unite2FightCorona</h4>      
+                                <img class="img" src="img/corona.jfif" alt="">
+                            </div>
+                            <div class="post-footer dflex">
 
-            <div class="post_actions">
-                <span class="material-icons-outlined">mode_comment</span> <span>3.1M</span>
-                <span class="material-icons" style="transform: rotate(90deg);">repeat</span><span>26.5M</span>
-                <span class="material-icons">favorite_border</span> <span>24.3M</span>
-                <span class="material-icons">ios_share</span>
+                                <div class="dflex cmt"><i class='ficon bx bx-message' ></i><span class="cnt">152</span></div>
+                                <div class="dflex repost"><i class='ficon bx bx-repost' ></i><span class="cnt">222</span></div>
+                                <div class="dflex heart"><i class=' ficon bx bx-heart' ></i><span class="cnt">222</span></div>
+                                
+                                <div class="dflex stats"><i class='ficon bx bx-align-left bx-rotate-270' ></i><span class="cnt">222</span></div>
+                                <div class="dflex upld"><i class='ficon bx bx-upload' ></i></div>
+                                
+
+                                
+
+                            </div>
+                        </div>
+                            
+                        
+
+                    
+                        
+                    
+                </div>
+                <div class="tweetmain border-top ">
+                    
+                    <div><img class="accpic" src="img/arvind.jfif" alt="arvind"></div>
+                    <div class="postcontent">
+                        <div class="posthead dflex">
+                            <h4 class="accname">Arvind Kejriwal</h4>
+                            <i class='bx bxs-badge-check accver'></i>
+                            <h5 class="accusername ">@ArvindKejriwal</h5>
+                            <span style="font-size: 4px; color: #9a9a9a;margin: 0 .2rem 0 .2rem;" class="material-icons">fiber_manual_record</span>
+                            <h5 class="posttime">3h</h5>
+                        </div>
+                        <div class="post-content-data">
+                            
+                            <p class="">पिछले 7 सालों में हमने दिल्ली में 20,000 क्लासरूम बनाए। बाक़ी सारी राज्य सरकारों और केंद्र सरकार मिलाकर भी बाक़ी देश में सात साल में 20,000 क्लासरूम नहीं बने।</p>    
+                            <img class="img" src="img/class.jfif" alt="">
+                        </div>
+                        <div class="post-footer dflex">
+
+                            <div class="dflex cmt"><i class='ficon bx bx-message' ></i><span class="cnt">152</span></div>
+                            <div class="dflex repost"><i class='ficon bx bx-repost' ></i><span class="cnt">222</span></div>
+                            <div class="dflex heart"><i class=' ficon bx bx-heart' ></i><span class="cnt">222</span></div>
+                            
+                            <div class="dflex stats"><i class='ficon bx bx-align-left bx-rotate-270' ></i><span class="cnt">222</span></div>
+                            <div class="dflex upld"><i class='ficon bx bx-upload' ></i></div>
+                            
+
+                            
+
+                        </div>
+                    </div>
+                        
+                    
+
+                
+                    
+                
             </div>
+            <div class="tweetmain border-top ">
+                    
+                <div><img class="accpic" src="img/prime.png" alt="arvind"></div>
+                <div class="postcontent">
+                    <div class="posthead dflex">
+                        <h4 class="accname">Prime Video In</h4>
+                        <i class='bx bxs-badge-check accver'></i>
+                        <h5 class="accusername ">@primevideoin</h5>
+                        <span style="font-size: 4px; color: #9a9a9a;margin: 0 .2rem 0 .2rem;" class="material-icons">fiber_manual_record</span>
+                        <h5 class="posttime">3h</h5>
+                    </div>
+                    <div class="post-content-data">
+                        
+                        <p class="">1 story, 8 chapters and too many secrets to be unleashed 🤐<span class="hastag">#BestsellerOnPrime</span>, watch now!</p>    
+                        <div class="video">
+                            <iframe src="https://youtube.com/embed/hG9lOquYMuY?autoplay=1&mute=1" class="media"></iframe>
+                        </div>
+                    </div>
+                    <div class="post-footer dflex">
+
+                        <div class="dflex cmt"><i class='ficon bx bx-message' ></i><span class="cnt">152</span></div>
+                        <div class="dflex repost"><i class='ficon bx bx-repost' ></i><span class="cnt">222</span></div>
+                        <div class="dflex heart"><i class=' ficon bx bx-heart' ></i><span class="cnt">222</span></div>
+                        
+                        <div class="dflex stats"><i class='ficon bx bx-align-left bx-rotate-270' ></i><span class="cnt">222</span></div>
+                        <div class="dflex upld"><i class='ficon bx bx-upload' ></i></div>
+                        
+
+                        
+
+                    </div>
+                </div>
+   
+            </div>
+            <div class="tweetmain border-top ">
+                    
+                <div><img class="accpic" src="img/anand.jfif" alt="anand"></div>
+                <div class="postcontent">
+                    <div class="posthead dflex">
+                        <h4 class="accname">Anand Mahindra</h4>
+                        <i class='bx bxs-badge-check accver'></i>
+                        <h5 class="accusername ">@anandmahindra</h5>
+                        <span style="font-size: 4px; color: #9a9a9a;margin: 0 .2rem 0 .2rem;" class="material-icons">fiber_manual_record</span>
+                        <h5 class="posttime">4h</h5>
+                    </div>
+                    <div class="post-content-data">
+                        
+                        <p class="">Not just the greatest Maratha, but a great Indian… <span class="hastag">#shivajimaharajjayanti</span></p>    
+                        <img class="img" src="img/maratha.jfif" alt="">
+                    </div>
+                    <div class="post-footer dflex">
+
+                        <div class="dflex cmt"><i class='ficon bx bx-message' ></i><span class="cnt">152</span></div>
+                        <div class="dflex repost"><i class='ficon bx bx-repost' ></i><span class="cnt">222</span></div>
+                        <div class="dflex heart"><i class=' ficon bx bx-heart' ></i><span class="cnt">222</span></div>
+                        
+                        <div class="dflex stats"><i class='ficon bx bx-align-left bx-rotate-270' ></i><span class="cnt">222</span></div>
+                        <div class="dflex upld"><i class='ficon bx bx-upload' ></i></div>
+                        
+
+                        
+
+                    </div>
+                </div>
+   
+            </div>
+            <div class="tweetmain border-top ">
+                    
+                <div><img class="accpic" src="img/pib.jfif" alt="pib"></div>
+                <div class="postcontent">
+                    <div class="posthead dflex">
+                        <h4 class="accname">PIB India</h4>
+                        <i class='bx bxs-badge-check accver'></i>
+                        <h5 class="accusername ">@pib_india</h5>
+                        <span style="font-size: 4px; color: #9a9a9a;margin: 0 .2rem 0 .2rem;" class="material-icons">fiber_manual_record</span>
+                        <h5 class="posttime">6h</h5>
+                    </div>
+                    <div class="post-content-data">
+                        
+                        <p class=""><span class="hastag">@mnreindia</span> and <span class="hastag" >@ficci_india</span> organise Chaitan Baithak on "Roadmap to achieve net-zero carbon emission till 2070
+
+                            The Chaitan Baithak was apart of MNRE's ongoing celebration of <span class="hastag">#AzadiKaAmritMahautsav </span> </p>    
+                        
+                    </div>
+                    <div class="post-footer dflex">
+
+                        <div class="dflex cmt"><i class='ficon bx bx-message' ></i><span class="cnt">152</span></div>
+                        <div class="dflex repost"><i class='ficon bx bx-repost' ></i><span class="cnt">222</span></div>
+                        <div class="dflex heart"><i class=' ficon bx bx-heart' ></i><span class="cnt">222</span></div>
+                        <div class="dflex stats"><i class='ficon bx bx-align-left bx-rotate-270' ></i><span class="cnt">222</span></div>
+                        <div class="dflex upld"><i class='ficon bx bx-upload' ></i></div>
+                        
+
+                        
+
+                    </div>
+                </div>
+   
+            </div>
+            <div class="tweetmain border-top ">
+                    
+                <div><img class="accpic" src="img/tesh.png" alt="pib"></div>
+                <div class="postcontent">
+                    <div class="posthead dflex">
+                        <h4 class="accname">Tesmanian.com</h4>
+                        <i class='bx bxs-badge-check accver'></i>
+                        <h5 class="accusername ">@tesmanian.com</h5>
+                        <span style="font-size: 4px; color: #9a9a9a;margin: 0 .2rem 0 .2rem;" class="material-icons">fiber_manual_record</span>
+                        <h5 class="posttime">6h</h5>
+                    </div>
+                    <div class="post-content-data">
+                        
+                        <p class="">Polaris Program Crew Will Conduct First-Ever Commercial Spacewalk Wearing New SpaceX Spacesuits
+                            <br> <span class="hastag">@SpaceX</span> and <span class="hastag" >@ElonMusk</span>
+                        </p>    
+                        <img class="img" src="img/space.jfif" alt="">
+                        
+                    </div>
+                    <div class="post-footer dflex">
+
+                        <div class="dflex cmt"><i class='ficon bx bx-message' ></i><span class="cnt">152</span></div>
+                        <div class="dflex repost"><i class='ficon bx bx-repost' ></i><span class="cnt">222</span></div>
+                        <div class="dflex heart"><i class=' ficon bx bx-heart' ></i><span class="cnt">222</span></div>
+                        <div class="dflex stats"><i class='ficon bx bx-align-left bx-rotate-270' ></i><span class="cnt">222</span></div>
+                        <div class="dflex upld"><i class='ficon bx bx-upload' ></i></div>
+                        
+
+                        
+
+                    </div>
+                </div>
+   
+            </div>
+            <div class="tweetmain border-top border-bottom">
+                    
+                <div><img class="accpic" src="img/rl.jfif" alt="pib"></div>
+                <div class="postcontent">
+                    <div class="posthead dflex">
+                        <h4 class="accname">Robert Lewandowskiverif</h4>
+                        <i class='bx bxs-badge-check accver'></i>
+                        <h5 class="accusername ">@lewy_official</h5>
+                        <span style="font-size: 4px; color: #9a9a9a;margin: 0 .2rem 0 .2rem;" class="material-icons">fiber_manual_record</span>
+                        <h5 class="posttime">5h</h5>
+                    </div>
+                    <div class="post-content-data">
+                        
+                        <p class="">Trust me they are heavier than you think. <br>
+                            <span class="hastag">#RL9#IFFHS <br>
+                                #International#TopDivision <br>
+                                #WorldBestPlayer</span> 
+                        </p>    
+                        <img class="img" src="img/rl9.jfif" alt="">
+                        
+                    </div>
+                    <div class="post-footer dflex">
+
+                        <div class="dflex cmt"><i class='ficon bx bx-message' ></i><span class="cnt">152</span></div>
+                        <div class="dflex repost"><i class='ficon bx bx-repost' ></i><span class="cnt">222</span></div>
+                        <div class="dflex heart"><i class=' ficon bx bx-heart' ></i><span class="cnt">222</span></div>
+                        <div class="dflex stats"><i class='ficon bx bx-align-left bx-rotate-270' ></i><span class="cnt">222</span></div>
+                        <div class="dflex upld"><i class='ficon bx bx-upload' ></i></div>
+                        
+
+                        
+
+                    </div>
+                </div>
+   
+            </div>
+            <div class="feedfooter">
+                <div class="feedfooter-icon"><i class='bx bx-wifi-off'></i></div>
+                <div  class="feedfooter-data">Oop's Sorry We Ran Into a Problem.Please check your Internet Connection.</div>
+
+
+            </div>
+                
         </div>
-        <div class="internet_issue" style="margin: 5em 0em;border-top: 2px solid rgba(128, 128, 128, 0.342);">
-            <span class="material-icons" style="font-size: 5em;margin-left: 40%;">wifi_off</span>
-            <p style="font-size: 1.5em;width: 80%;margin-left: 10%;">Oop's Sorry We Ran Into a Problem.Please check your Internet Connection.</p>
-        </div>
+        
     </div>
+    <div class="rightbar">
+        <div class="search" >
+            <input type="text" placeholder="  Search ">
+        </div>
+        <div class="explore">
+            <div style="text-align: center; margin-top:1rem;margin-bottom: 1rem;"><span style="font-size: 25px;">What's Happening</span></div>
+            <div class="trending">
+                <div>
+                    <div class="category">
+                        <span class="dflex">Sports<span style="font-size: 4px; color: #9a9a9a;margin: 0 .2rem 0 .2rem;" class="material-icons">fiber_manual_record</span>Live</span>
+                        
+                    </div>
+                    
+                    <div class="dflex">
+                        <span class="matter">INDvsWI: Both teams face off in the second T20I</span>
+                        <img class="trendimg" src="img/virat.jpg" alt="">
+                    </div>
+                    <span class="trendacc">Trending with Venky, <span class="trendtag">#IndvsWI</span> </span>
+                </div>
+               <div><i class='dflex bx bx-dots-horizontal-rounded'></i></div>
+                
 
+            </div>
+            <div class="trending">
+                <div>
+                    <div class="category">
+                        <span class="dflex">Travel<span style="font-size: 4px; color: #9a9a9a;margin: 0 .2rem 0 .2rem;" class="material-icons">fiber_manual_record</span>Trending</span>
+                        
+                    </div>
+                    
+                    <div class="dflex" style="width: 100%;">
+                        <span class="matter">#Bihar</span>
+                        
+                    </div>
+                    <span class="trendacc">2564 tweets , Trending with <span class="trendtag">#Bihar_Is_Love</span> </span>
+                </div>
+                <div><i class='dflex bx bx-dots-horizontal-rounded'></i></div>
+               
+                
 
-    <!-- -------------------------------------------------------------------------------------------------------------------------------------- -->
-    <!-- -------------------------------------------------------------------------------------------------------------------------------------- -->
-    <!-- THIRD SECTION -->
+            </div>
+            <div class="trending">
+                <div>
+                    <div class="category">
+                        <span class="dflex">Sports<span style="font-size: 4px; color: #9a9a9a;margin: 0 .2rem 0 .2rem;" class="material-icons">fiber_manual_record</span>Trending</span>
+                        
+                    </div>
+                    
+                    <div class="dflex" style="width: 100%;">
+                        <span class="matter">#RuturajGaikwad</span>
+                        
+                    </div>
+                    <!-- <span class="trendacc">2564 tweets , Trending with <span class="trendtag">#Bihar_Is_Love</span> </span> -->
+                </div>
+                <div><i class='dflex bx bx-dots-horizontal-rounded'></i></div>
+               
+                
 
-    <div class="third_section">
-        <div class="SearchBar" style="margin: 20px 10px;">
-            <input type="text" placeholder="&nbsp;&nbsp;&nbsp;  &#xF002; Search Twitter" />
+            </div>
+            <div class="trending">
+                <div>
+                    <div class="category">
+                        <span class="dflex">Cricket<span style="font-size: 4px; color: #9a9a9a;margin: 0 .2rem 0 .2rem;" class="material-icons">fiber_manual_record</span>Trending</span>
+                        
+                    </div>
+                    
+                    <div class="dflex" style="width: 100%;">
+                        <span class="matter">#ViratKohli</span>
+                        
+                    </div>
+                    <span class="trendacc">Trending with <span class="trendtag">#Virat_Kohli</span> </span>
+                </div>
+                <div><i class='dflex bx bx-dots-horizontal-rounded'></i></div>
+               
+                
+
+            </div>
+            <div class="trending">
+                <div>
+                    <div class="category">
+                        <span class="dflex">World News<span style="font-size: 4px; color: #9a9a9a;margin: 0 .2rem 0 .2rem;" class="material-icons">fiber_manual_record</span>Live</span>
+                        
+                    </div>
+                    
+                    <div class="dflex">
+                        <span class="matter">Ukraine: Putin to personally oversee hugenuclear drills on Saturday amid Tension</span>
+                        <img class="trendimg" src="img/military.jfif" alt="">
+                    </div>
+                    <!-- <span class="trendacc">Trending with Venky, <span class="trendtag">#IndvsWI</span> </span> -->
+                </div>
+               <div><i class='dflex bx bx-dots-horizontal-rounded'></i></div>
+                
+
+            </div>
+            <div  style="border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;height: 30px ;" class="trending dflex">
+                <span style="color: #1DA1F2;">Show More</span>
+            </div>
+
         </div>
-        <div class="WhatsHappening" style="margin-bottom: 2em;border-radius: 10px;background-color: rgba(190, 186, 180, 0.363);">
-            <p style="text-align: center;font-size: 1.5em;"><strong>What's Happening</strong></p>
-            <div class="WH_Feed">
-                <p class="category">Sports . LIVE</p>
-                <p class="topic">INDvsWI: Both teams face off in the second T20I</p>
-                <img src="virat.jpg">
-                <p class="ExtraInfo">Trending with <span >Venky</span> &nbsp;,&nbsp; <span >#IndvsWI</span></p>
+
+        <div class="suggestions">
+            <span style="margin-left: 1rem;margin-top: 1rem;font-size: 20px ;margin-bottom: 1rem; font-weight: 600;">Who To Follow</span>
+            <div class="acc">
+                <div class="dflex">
+                    <img class="accimg"src="img/dgp.png" alt="">
+                    <div>
+                        <div class="dflex"><span class="accnm">NIT DURGAPUR</span><i class='bx bxs-badge-check accver'></i></div>
+                        <span class="accusn">@nitdgp</span>
+                    </div>
+                </div>
+                
+                <button class="flwbtn">Follow</button>
             </div>
-            <div class="WH_Feed">
-                <p class="category">Travel . Trending</p>
-                <p class="topic">#Bihar</p>
-                <p class="ExtraInfo">2564 tweets , Trending with <span >#Bihar_Is_Love</span></p>
+            <div class="acc">
+                <div class="dflex"> 
+                    <img class="accimg"src="img/glug.jfif" alt="">
+                    <div>
+                        <div class="dflex"><span class="accnm">GNU/LINUX USER'S GROUP</span><i class='bx bxs-badge-check accver'></i></div>
+                        <span class="accusn">@nitdgp_glug</span>
+                    </div>
+                </div>
+                
+                <button class="flwbtn">Follow</button>
             </div>
-            <div class="WH_Feed">
-                <p class="category">Sports . Trending</p>
-                <p class="topic">#RuturajGaikwad<span class="material-icons" style="position: absolute;margin-left: 4.3cm;margin-top: -2px;">more_horiz</span></p>
-                <p class="ExtraInfo"></p>
+            <div class="acc">
+                <div class="dflex">
+                    <img class="accimg"src="img/dp.jpg" alt="">
+                    <div>
+                        <div class="dflex"><span class="accnm">Praise Son</span><i class='bx bxs-badge-check accver'></i></div>
+                        <span class="accusn">@Praiseson_6065</span>
+                    </div>
+                </div>
+                
+                <button class="flwbtn">Follow</button>
             </div>
-            <div class="WH_Feed">
-                <p class="category">Cricket . Trending</p>
-                <p class="topic">#ViratKohli</p>
-                <p class="ExtraInfo">Trending with <span >#Virat_Kohli</span></p>
+            <div class="acc">
+                <div class="dflex">
+                    <img class="accimg"src="img/elon.jfif" alt="">
+                    <div>
+                        <div class="dflex"><span class="accnm">ELON MUSK</span><i class='bx bxs-badge-check accver'></i></div>
+                        <span class="accusn">@ElonMusk</span>
+                    </div>
+                </div>
+                
+                <button class="flwbtn">Follow</button>
             </div>
-            <div class="WH_Feed">
-                <p class="category">World_News . LIVE</p>
-                <p class="topic">Ukraine: Putin to personally oversee hugenuclear drills on Saturday amid Tension</p>
-                <img src="military.jfif" alt="">
-                <p class="ExtraInfo"></p>
+            <div  style="border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;height: 30px ;" class="trending dflex">
+                <span style="color: #1DA1F2;">Show More</span>
             </div>
-            <div style="color: blue; font-size:0.9em;margin:10px;cursor: pointer;">Show More</div>
+            
         </div>
-        <div class="WhoToFollow" style="border-radius: 10px;background-color: rgba(190, 186, 180, 0.363);">
-            <p style="text-align: center;font-size: 1.5em;"><strong>Who To Follow</strong></p>
-            <div class="profiles">
-                <img src="dgp.png" alt="">
-                <span class="name">NIT DURGAPUR<span class="material-icons" >verified</span></span>
-                <span class="username">@nitdgp</span>
-                <span class="follow_button"><a href="javascript:void(0)" class="flw_btn" onclick="follow()">Follow</a></span>
+        <div class="rightfooter">
+            <div class="dflex">
+                <span class="footer_item">Terms of Service</span>
+                <span class="footer_item">Privacy Policy</span>
+                <span class="footer_item">Cookie Policy</span>
             </div>
-            <div class="profiles">
-                <img src="glug.jfif" alt="">
-                <span class="name">GNU/LINUX USER'S GROUP<span class="material-icons"
-                        >verified</span></span>
-                <span class="username">@nitdgp_glug</span>
-                <span class="follow_button"><a href="javascript:void(0)" class="flw_btn" onclick="follow()">Follow</a></span>
+            <div  class="dflex">
+                <span class="footer_item">Accessibility</span>
+                <span class="footer_item">Ads info</span>
+                <span class="footer_item ">More <i class='bx bx-dots-horizontal-rounded'></i></span>
+                
             </div>
-            <div class="profiles">
-                <img src="rounak.jpeg" alt="">
-                <span class="name">ROUNAK KUMAR JHA<span class="material-icons"
-                        >verified</span></span>
-                <span class="username">@Rounak.K.Jha2002</span>
-                <span class="follow_button"><a href="javascript:void(0)" class="flw_btn" onclick="follow()">Follow</a></span>
+            <div class="dflex">
+                <span class="footer_item">Developed By Praiseson</span>
             </div>
-            <div class="profiles">
-                <img src="elon.jfif" alt="">
-                <span class="name">ELON MUSK<span class="material-icons" >verified</span></span>
-                <span class="username">@ElonMusk</span>
-                <span class="follow_button"><a href="javascript:void(0)" id="flw_btn" onclick="follow()">Follow</a></span>
-            </div>
-            <div style="color: blue; font-size:0.9em;margin: 10px;cursor: pointer;">Show More</div>
+            
+            
         </div>
-        <div class="twitter_policies">
-            <span>Terms of service</span>
-            <span>Privacy Policy</span>
-            <span>Cookie Policy</span>
-            <span>Accessibility</span>
-            <span>Ads Info</span>
-            <span>More <i class="material-icons" >more_horiz</i></span>
-            <span>© 2022 Twitter, Inc.</span> <br> <br>
-            <span> Developed by <strong style="color: black;">DEXTRIX DEVELOPER</strong></span>
-        </div>
+        
+    </div>
+    <div class="dispfooter">
+        <i class='bx bx-home'></i>
+        <i class='bx bx-search'></i>
+        <i class='bx bx-bell' ></i>
+        <i class='bx bxs-user-circle' ></i>
 
     </div>
-    <div class="footer">
-        <a href=""><span class="material-icons">home</span></a>
-        <a href=""><span class="material-icons">search</span></a>
-        <a href=""><span class="material-icons">notifications</span></a>
-        <a href=""><span class="material-icons">account_circle</span></a>
-    </div>
+    
+    
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </body>
-<script>
-    function get_started() {
-        document.getElementById("welcome_msg").style.display = "none";
-    }
-</script>
-
 </html>
